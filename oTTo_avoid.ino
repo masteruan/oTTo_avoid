@@ -5,6 +5,9 @@
 //-- double check your US (Ultra sound) module some have TRIG and ECHO swapped!
 //-----------------------------------------------------------------
 //-- Otto will avoid obstacles with this code!
+//--
+//-- OPTIMIZED by masteruan
+//-- 14 January 2019
 //-----------------------------------------------------------------
 #include <Servo.h> 
 #include <Oscillator.h>
@@ -26,7 +29,6 @@ RIGHT FOOT 5==>   -----   ------  <== LEFT FOOT 4
 #define PIN_RIGHT_LEG  3  
 #define PIN_LEFT_FOOT  4  
 #define PIN_RIGHT_FOOT 5 
- 
 
 #define TRIM_LEFT_LEG   0 
 #define TRIM_RIGHT_LEG  0
